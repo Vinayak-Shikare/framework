@@ -31,7 +31,7 @@ public class scrollbar {
 		WebElement loanEMIElement = driver.findElement(By.cssSelector("#emiamount>p>span"));
 
 		String loanEMIText = loanEMIElement.getText();
-
+ //Small changes
 		// Assert.assertEquals("80,439",loanEMIText);
 		// Thread.sleep(1000);
 		System.out.println(loanEMIText);
